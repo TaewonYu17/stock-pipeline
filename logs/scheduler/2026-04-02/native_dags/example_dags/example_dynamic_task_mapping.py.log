@@ -306,3 +306,17 @@
 [2026-04-02T16:42:35.905+0000] {logging_mixin.py:188} INFO - [2026-04-02T16:42:35.905+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-04-02T16:42:35.919+0000] {logging_mixin.py:188} INFO - [2026-04-02T16:42:35.919+0000] {dag.py:3954} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
 [2026-04-02T16:42:35.933+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.050 seconds
+[2026-04-02T16:43:06.815+0000] {processor.py:161} INFO - Started process (PID=2618) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2026-04-02T16:43:06.815+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2026-04-02T16:43:06.816+0000] {logging_mixin.py:188} INFO - [2026-04-02T16:43:06.816+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2026-04-02T16:43:06.820+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2026-04-02T16:43:06.834+0000] {logging_mixin.py:188} INFO - [2026-04-02T16:43:06.834+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-02T16:43:06.847+0000] {logging_mixin.py:188} INFO - [2026-04-02T16:43:06.847+0000] {dag.py:3954} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2026-04-02T16:43:06.862+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.051 seconds
+[2026-04-02T16:43:37.748+0000] {processor.py:161} INFO - Started process (PID=2682) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2026-04-02T16:43:37.748+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2026-04-02T16:43:37.750+0000] {logging_mixin.py:188} INFO - [2026-04-02T16:43:37.750+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2026-04-02T16:43:37.755+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2026-04-02T16:43:37.771+0000] {logging_mixin.py:188} INFO - [2026-04-02T16:43:37.770+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-02T16:43:37.785+0000] {logging_mixin.py:188} INFO - [2026-04-02T16:43:37.785+0000] {dag.py:3954} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2026-04-02T16:43:37.802+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.058 seconds
