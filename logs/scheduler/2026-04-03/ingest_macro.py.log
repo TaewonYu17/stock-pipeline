@@ -1,0 +1,385 @@
+[2026-04-03T00:58:03.447+0000] {processor.py:161} INFO - Started process (PID=5280) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T00:58:03.447+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T00:58:03.448+0000] {logging_mixin.py:188} INFO - [2026-04-03T00:58:03.447+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T00:58:03.453+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T00:58:03.492+0000] {logging_mixin.py:188} INFO - [2026-04-03T00:58:03.492+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:ingest_macro
+[2026-04-03T00:58:03.495+0000] {logging_mixin.py:188} INFO - [2026-04-03T00:58:03.495+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:ingest_macro
+[2026-04-03T00:58:03.496+0000] {logging_mixin.py:188} INFO - [2026-04-03T00:58:03.496+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:ingest_macro
+[2026-04-03T00:58:03.497+0000] {logging_mixin.py:188} INFO - [2026-04-03T00:58:03.497+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T00:58:03.501+0000] {logging_mixin.py:188} INFO - [2026-04-03T00:58:03.501+0000] {dag.py:3118} INFO - Creating ORM DAG for ingest_macro
+[2026-04-03T00:58:03.504+0000] {logging_mixin.py:188} INFO - [2026-04-03T00:58:03.504+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-01 19:00:00+00:00, run_after=2026-04-02 19:00:00+00:00
+[2026-04-03T00:58:03.514+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.070 seconds
+[2026-04-03T00:58:33.529+0000] {processor.py:161} INFO - Started process (PID=5340) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T00:58:33.530+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T00:58:33.530+0000] {logging_mixin.py:188} INFO - [2026-04-03T00:58:33.530+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T00:58:33.539+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T00:58:33.551+0000] {logging_mixin.py:188} INFO - [2026-04-03T00:58:33.551+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T00:58:33.562+0000] {logging_mixin.py:188} INFO - [2026-04-03T00:58:33.562+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-01 19:00:00+00:00, run_after=2026-04-02 19:00:00+00:00
+[2026-04-03T00:58:33.572+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.046 seconds
+[2026-04-03T00:59:03.659+0000] {processor.py:161} INFO - Started process (PID=5404) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T00:59:03.660+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T00:59:03.660+0000] {logging_mixin.py:188} INFO - [2026-04-03T00:59:03.660+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T00:59:03.665+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T00:59:03.675+0000] {logging_mixin.py:188} INFO - [2026-04-03T00:59:03.675+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T00:59:03.683+0000] {logging_mixin.py:188} INFO - [2026-04-03T00:59:03.683+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T00:59:03.690+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.033 seconds
+[2026-04-03T00:59:33.771+0000] {processor.py:161} INFO - Started process (PID=5464) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T00:59:33.772+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T00:59:33.772+0000] {logging_mixin.py:188} INFO - [2026-04-03T00:59:33.772+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T00:59:33.777+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T00:59:33.788+0000] {logging_mixin.py:188} INFO - [2026-04-03T00:59:33.788+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T00:59:33.797+0000] {logging_mixin.py:188} INFO - [2026-04-03T00:59:33.797+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T00:59:33.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.036 seconds
+[2026-04-03T01:00:03.856+0000] {processor.py:161} INFO - Started process (PID=5523) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:00:03.856+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:00:03.857+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:00:03.857+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:00:03.863+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:00:03.875+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:00:03.875+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:00:03.886+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:00:03.886+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:00:03.894+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.041 seconds
+[2026-04-03T01:00:34.880+0000] {processor.py:161} INFO - Started process (PID=5584) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:00:34.880+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:00:34.881+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:00:34.881+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:00:34.893+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:00:34.910+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:00:34.910+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:00:34.924+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:00:34.924+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:00:34.940+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.065 seconds
+[2026-04-03T01:01:04.994+0000] {processor.py:161} INFO - Started process (PID=5644) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:01:04.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:01:04.997+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:01:04.997+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:01:05.005+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:01:05.025+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:01:05.025+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:01:05.040+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:01:05.039+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:01:05.050+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.061 seconds
+[2026-04-03T01:01:36.029+0000] {processor.py:161} INFO - Started process (PID=5710) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:01:36.032+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:01:36.032+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:01:36.032+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:01:36.041+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:01:36.059+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:01:36.059+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:01:36.073+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:01:36.073+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:01:36.084+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.059 seconds
+[2026-04-03T01:02:06.210+0000] {processor.py:161} INFO - Started process (PID=5770) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:02:06.212+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:02:06.214+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:02:06.214+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:02:06.221+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:02:06.236+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:02:06.236+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:02:06.249+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:02:06.249+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:02:06.262+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.056 seconds
+[2026-04-03T01:02:36.347+0000] {processor.py:161} INFO - Started process (PID=5830) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:02:36.350+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:02:36.351+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:02:36.351+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:02:36.359+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:02:36.380+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:02:36.379+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:02:36.396+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:02:36.395+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:02:36.410+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.068 seconds
+[2026-04-03T01:03:06.435+0000] {processor.py:161} INFO - Started process (PID=5890) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:03:06.436+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:03:06.436+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:03:06.436+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:03:06.443+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:03:06.460+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:03:06.460+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:03:06.474+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:03:06.473+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:03:06.484+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.052 seconds
+[2026-04-03T01:03:36.838+0000] {processor.py:161} INFO - Started process (PID=5951) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:03:36.839+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:03:36.840+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:03:36.839+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:03:36.849+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:03:36.863+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:03:36.863+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:03:36.874+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:03:36.874+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:03:36.882+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.049 seconds
+[2026-04-03T01:04:06.921+0000] {processor.py:161} INFO - Started process (PID=6011) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:04:06.922+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:04:06.922+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:04:06.922+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:04:06.927+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:04:06.937+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:04:06.937+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:04:06.946+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:04:06.946+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:04:06.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.035 seconds
+[2026-04-03T01:04:37.134+0000] {processor.py:161} INFO - Started process (PID=6071) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:04:37.135+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:04:37.135+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:04:37.135+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:04:37.142+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:04:37.155+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:04:37.155+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:04:37.166+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:04:37.166+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:04:37.174+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.044 seconds
+[2026-04-03T01:05:07.257+0000] {processor.py:161} INFO - Started process (PID=6131) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:05:07.258+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:05:07.258+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:05:07.258+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:05:07.268+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:05:07.286+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:05:07.286+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:05:07.299+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:05:07.299+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:05:07.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.058 seconds
+[2026-04-03T01:05:37.371+0000] {processor.py:161} INFO - Started process (PID=6191) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:05:37.372+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:05:37.373+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:05:37.372+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:05:37.382+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:05:37.396+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:05:37.396+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:05:37.406+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:05:37.406+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:05:37.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.050 seconds
+[2026-04-03T01:06:07.590+0000] {processor.py:161} INFO - Started process (PID=6251) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:06:07.591+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:06:07.591+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:06:07.591+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:06:07.599+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:06:07.615+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:06:07.614+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:06:07.627+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:06:07.627+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:06:07.637+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.051 seconds
+[2026-04-03T01:06:37.775+0000] {processor.py:161} INFO - Started process (PID=6311) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:06:37.775+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:06:37.776+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:06:37.776+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:06:37.784+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:06:37.799+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:06:37.799+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:06:37.811+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:06:37.811+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:06:37.821+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.050 seconds
+[2026-04-03T01:07:07.892+0000] {processor.py:161} INFO - Started process (PID=6371) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:07:07.893+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:07:07.894+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:07:07.894+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:07:07.902+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:07:07.918+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:07:07.917+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:07:07.930+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:07:07.930+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:07:07.942+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.055 seconds
+[2026-04-03T01:07:38.648+0000] {processor.py:161} INFO - Started process (PID=6431) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:07:38.649+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:07:38.650+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:07:38.650+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:07:38.659+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:07:38.672+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:07:38.672+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:07:38.683+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:07:38.683+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:07:38.693+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.050 seconds
+[2026-04-03T01:08:09.531+0000] {processor.py:161} INFO - Started process (PID=6491) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:08:09.532+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:08:09.533+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:08:09.532+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:08:09.543+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:08:09.556+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:08:09.555+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:08:09.568+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:08:09.568+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:08:09.577+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.049 seconds
+[2026-04-03T01:08:25.220+0000] {processor.py:161} INFO - Started process (PID=6538) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:08:25.221+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:08:25.222+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:08:25.221+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:08:25.232+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:08:25.230+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ingest_macro.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ingest_macro.py", line 92, in <module>
+    ingest_macro_dag()
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 4081, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/ingest_macro.py", line 57, in ingest_macro_dag
+    print(f"Total rows fetched: {len(rows)}")
+                                     ^^^^
+UnboundLocalError: cannot access local variable 'rows' where it is not associated with a value
+[2026-04-03T01:08:25.233+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:08:25.247+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.033 seconds
+[2026-04-03T01:08:39.719+0000] {processor.py:161} INFO - Started process (PID=6552) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:08:39.720+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:08:39.721+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:08:39.720+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:08:39.733+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:08:39.730+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ingest_macro.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ingest_macro.py", line 92, in <module>
+    ingest_macro_dag()
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 4081, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/ingest_macro.py", line 57, in ingest_macro_dag
+    print(f"Total rows fetched: {len(rows)}")
+                                     ^^^^
+UnboundLocalError: cannot access local variable 'rows' where it is not associated with a value
+[2026-04-03T01:08:39.734+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:08:39.748+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.035 seconds
+[2026-04-03T01:08:57.293+0000] {processor.py:161} INFO - Started process (PID=6599) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:08:57.294+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:08:57.295+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:08:57.294+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:08:57.305+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:08:57.321+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:08:57.321+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:08:57.333+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:08:57.333+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:08:57.342+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.053 seconds
+[2026-04-03T01:09:28.119+0000] {processor.py:161} INFO - Started process (PID=6659) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:09:28.120+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:09:28.121+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:09:28.120+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:09:28.131+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:09:28.151+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:09:28.151+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:09:28.166+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:09:28.166+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:09:28.175+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.061 seconds
+[2026-04-03T01:09:58.298+0000] {processor.py:161} INFO - Started process (PID=6719) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:09:58.298+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:09:58.299+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:09:58.299+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:09:58.309+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:09:58.325+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:09:58.324+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:09:58.336+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:09:58.336+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:09:58.344+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.052 seconds
+[2026-04-03T01:10:28.424+0000] {processor.py:161} INFO - Started process (PID=6779) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:10:28.425+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:10:28.426+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:10:28.426+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:10:28.435+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:10:28.449+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:10:28.449+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:10:28.460+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:10:28.460+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:10:28.468+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.049 seconds
+[2026-04-03T01:11:35.769+0000] {processor.py:161} INFO - Started process (PID=95) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:11:35.770+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:11:35.774+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:11:35.773+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:11:35.786+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:11:35.808+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:11:35.807+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:11:35.823+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:11:35.823+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:11:35.837+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.072 seconds
+[2026-04-03T01:12:06.225+0000] {processor.py:161} INFO - Started process (PID=155) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:12:06.225+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:12:06.226+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:12:06.226+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:12:06.237+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:12:06.294+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:12:06.294+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:12:06.306+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:12:06.306+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:12:06.319+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.098 seconds
+[2026-04-03T01:12:37.051+0000] {processor.py:161} INFO - Started process (PID=216) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:12:37.053+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:12:37.055+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:12:37.054+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:12:37.065+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:12:37.077+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:12:37.077+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:12:37.090+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:12:37.090+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:12:37.103+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.056 seconds
+[2026-04-03T01:13:07.172+0000] {processor.py:161} INFO - Started process (PID=276) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:13:07.173+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:13:07.174+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:13:07.174+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:13:07.181+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:13:07.195+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:13:07.195+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:13:07.207+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:13:07.207+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:13:07.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.052 seconds
+[2026-04-03T01:13:38.221+0000] {processor.py:161} INFO - Started process (PID=342) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:13:38.222+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:13:38.225+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:13:38.224+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:13:38.238+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:13:38.259+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:13:38.259+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:13:38.274+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:13:38.274+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:13:38.284+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.067 seconds
+[2026-04-03T01:14:09.211+0000] {processor.py:161} INFO - Started process (PID=402) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:14:09.211+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:14:09.213+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:14:09.213+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:14:09.219+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:14:09.235+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:14:09.235+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:14:09.250+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:14:09.250+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:14:09.262+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.055 seconds
+[2026-04-03T01:14:40.147+0000] {processor.py:161} INFO - Started process (PID=462) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:14:40.148+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:14:40.152+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:14:40.151+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:14:40.162+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:14:40.184+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:14:40.184+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:14:40.196+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:14:40.196+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:14:40.209+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.068 seconds
+[2026-04-03T01:15:11.035+0000] {processor.py:161} INFO - Started process (PID=522) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:15:11.035+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:15:11.037+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:15:11.037+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:15:11.045+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:15:11.058+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:15:11.057+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:15:11.068+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:15:11.068+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:15:11.076+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.047 seconds
+[2026-04-03T01:15:41.672+0000] {processor.py:161} INFO - Started process (PID=582) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:15:41.674+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:15:41.676+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:15:41.675+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:15:41.684+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:15:41.709+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:15:41.708+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:15:41.725+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:15:41.725+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:15:41.734+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.069 seconds
+[2026-04-03T01:16:12.548+0000] {processor.py:161} INFO - Started process (PID=642) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:16:12.550+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:16:12.551+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:16:12.551+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:16:12.557+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:16:12.573+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:16:12.573+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:16:12.584+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:16:12.584+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:16:12.596+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.051 seconds
+[2026-04-03T01:16:43.480+0000] {processor.py:161} INFO - Started process (PID=702) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:16:43.481+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:16:43.483+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:16:43.483+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:16:43.494+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:16:43.511+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:16:43.511+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:16:43.526+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:16:43.526+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:16:43.539+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.064 seconds
+[2026-04-03T01:17:14.349+0000] {processor.py:161} INFO - Started process (PID=762) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:17:14.350+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:17:14.352+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:17:14.352+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:17:14.364+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:17:14.384+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:17:14.384+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:17:14.401+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:17:14.401+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:17:14.414+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.071 seconds
+[2026-04-03T01:17:44.695+0000] {processor.py:161} INFO - Started process (PID=821) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:17:44.695+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:17:44.697+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:17:44.696+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:17:44.705+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:17:44.721+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:17:44.721+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:17:44.736+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:17:44.736+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:17:44.750+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.059 seconds
+[2026-04-03T01:18:14.897+0000] {processor.py:161} INFO - Started process (PID=881) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:18:14.898+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:18:14.901+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:18:14.900+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:18:14.909+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:18:14.930+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:18:14.930+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:18:14.946+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:18:14.946+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:18:14.961+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.067 seconds
+[2026-04-03T01:18:45.171+0000] {processor.py:161} INFO - Started process (PID=941) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:18:45.171+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:18:45.174+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:18:45.174+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:18:45.185+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:18:45.203+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:18:45.203+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:18:45.217+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:18:45.217+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:18:45.231+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.066 seconds
+[2026-04-03T01:19:15.289+0000] {processor.py:161} INFO - Started process (PID=1001) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:19:15.290+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:19:15.294+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:19:15.294+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:19:15.313+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:19:15.338+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:19:15.338+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:19:15.357+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:19:15.357+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:19:15.369+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.088 seconds
+[2026-04-03T01:19:46.334+0000] {processor.py:161} INFO - Started process (PID=1063) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:19:46.334+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:19:46.336+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:19:46.335+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:19:46.341+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:19:46.352+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:19:46.352+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:19:46.362+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:19:46.362+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:19:46.370+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.040 seconds
+[2026-04-03T01:20:17.330+0000] {processor.py:161} INFO - Started process (PID=1123) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:20:17.331+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:20:17.332+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:20:17.332+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:20:17.341+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:20:17.357+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:20:17.357+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:20:17.368+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:20:17.368+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:20:17.376+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.052 seconds
+[2026-04-03T01:20:48.108+0000] {processor.py:161} INFO - Started process (PID=1183) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:20:48.109+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:20:48.111+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:20:48.111+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:20:48.120+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:20:48.133+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:20:48.133+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:20:48.144+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:20:48.144+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:20:48.151+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.049 seconds
+[2026-04-03T01:21:18.770+0000] {processor.py:161} INFO - Started process (PID=1243) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:21:18.771+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:21:18.772+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:21:18.772+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:21:18.776+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:21:18.786+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:21:18.786+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:21:18.795+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:21:18.795+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:21:18.802+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.035 seconds
+[2026-04-03T01:21:49.379+0000] {processor.py:161} INFO - Started process (PID=1303) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:21:49.380+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:21:49.381+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:21:49.381+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:21:49.386+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:21:49.397+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:21:49.397+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:21:49.412+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:21:49.411+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:21:49.418+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.042 seconds
+[2026-04-03T01:22:20.034+0000] {processor.py:161} INFO - Started process (PID=1363) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:22:20.035+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:22:20.036+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:22:20.036+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:22:20.043+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:22:20.055+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:22:20.055+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:22:20.066+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:22:20.066+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:22:20.075+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.045 seconds
+[2026-04-03T01:22:50.713+0000] {processor.py:161} INFO - Started process (PID=1423) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:22:50.714+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:22:50.715+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:22:50.715+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:22:50.721+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:22:50.735+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:22:50.735+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:22:50.746+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:22:50.746+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:22:50.754+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.045 seconds
+[2026-04-03T01:23:21.616+0000] {processor.py:161} INFO - Started process (PID=1483) to work on /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:23:21.617+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_macro.py for tasks to queue
+[2026-04-03T01:23:21.619+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:23:21.619+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:23:21.629+0000] {processor.py:840} INFO - DAG(s) 'ingest_macro' retrieved from /opt/airflow/dags/ingest_macro.py
+[2026-04-03T01:23:21.647+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:23:21.647+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-03T01:23:21.661+0000] {logging_mixin.py:188} INFO - [2026-04-03T01:23:21.661+0000] {dag.py:3954} INFO - Setting next_dagrun for ingest_macro to 2026-04-02 19:00:00+00:00, run_after=2026-04-03 19:00:00+00:00
+[2026-04-03T01:23:21.670+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_macro.py took 0.060 seconds

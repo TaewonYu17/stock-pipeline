@@ -1,0 +1,30 @@
+[2026-04-03T00:58:42.629+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-03T00:58:42.640+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ingest_fundamentals.fetch_fundamentals manual__2026-04-03T00:58:41.736576+00:00 [queued]>
+[2026-04-03T00:58:42.644+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ingest_fundamentals.fetch_fundamentals manual__2026-04-03T00:58:41.736576+00:00 [queued]>
+[2026-04-03T00:58:42.645+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 4
+[2026-04-03T00:58:42.651+0000] {taskinstance.py:2327} INFO - Executing <Task(_PythonDecoratedOperator): fetch_fundamentals> on 2026-04-03 00:58:41.736576+00:00
+[2026-04-03T00:58:42.654+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=958) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-04-03T00:58:42.655+0000] {standard_task_runner.py:63} INFO - Started process 962 to run task
+[2026-04-03T00:58:42.655+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'ingest_fundamentals', 'fetch_fundamentals', 'manual__2026-04-03T00:58:41.736576+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/ingest_fundamentals.py', '--cfg-path', '/tmp/tmphvn_3sid']
+[2026-04-03T00:58:42.656+0000] {standard_task_runner.py:91} INFO - Job 30: Subtask fetch_fundamentals
+[2026-04-03T00:58:42.682+0000] {task_command.py:426} INFO - Running <TaskInstance: ingest_fundamentals.fetch_fundamentals manual__2026-04-03T00:58:41.736576+00:00 [running]> on host aa60ffa7c519
+[2026-04-03T00:58:42.729+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ingest_fundamentals' AIRFLOW_CTX_TASK_ID='fetch_fundamentals' AIRFLOW_CTX_EXECUTION_DATE='2026-04-03T00:58:41.736576+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-03T00:58:41.736576+00:00'
+[2026-04-03T00:58:42.730+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-04-03T00:58:42.856+0000] {logging_mixin.py:188} INFO - WARNING: No data for AAPL — may have hit rate limit
+[2026-04-03T00:58:42.946+0000] {logging_mixin.py:188} INFO - WARNING: No data for MSFT — may have hit rate limit
+[2026-04-03T00:58:43.037+0000] {logging_mixin.py:188} INFO - WARNING: No data for GOOGL — may have hit rate limit
+[2026-04-03T00:58:43.119+0000] {logging_mixin.py:188} INFO - WARNING: No data for AMZN — may have hit rate limit
+[2026-04-03T00:58:43.211+0000] {logging_mixin.py:188} INFO - WARNING: No data for META — may have hit rate limit
+[2026-04-03T00:58:43.293+0000] {logging_mixin.py:188} INFO - WARNING: No data for NVDA — may have hit rate limit
+[2026-04-03T00:58:43.373+0000] {logging_mixin.py:188} INFO - WARNING: No data for TSLA — may have hit rate limit
+[2026-04-03T00:58:43.463+0000] {logging_mixin.py:188} INFO - WARNING: No data for JPM — may have hit rate limit
+[2026-04-03T00:58:43.548+0000] {logging_mixin.py:188} INFO - WARNING: No data for V — may have hit rate limit
+[2026-04-03T00:58:43.631+0000] {logging_mixin.py:188} INFO - WARNING: No data for UNH — may have hit rate limit
+[2026-04-03T00:58:43.632+0000] {python.py:237} INFO - Done. Returned value was: []
+[2026-04-03T00:58:43.633+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-04-03T00:58:43.644+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=ingest_fundamentals, task_id=fetch_fundamentals, execution_date=20260403T005841, start_date=20260403T005842, end_date=20260403T005843
+[2026-04-03T00:58:43.695+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-04-03T00:58:43.705+0000] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-04-03T00:58:43.706+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

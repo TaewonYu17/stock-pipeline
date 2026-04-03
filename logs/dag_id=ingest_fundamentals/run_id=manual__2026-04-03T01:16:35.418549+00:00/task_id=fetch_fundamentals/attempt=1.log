@@ -1,0 +1,28 @@
+[2026-04-03T01:16:36.278+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-03T01:16:36.288+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ingest_fundamentals.fetch_fundamentals manual__2026-04-03T01:16:35.418549+00:00 [queued]>
+[2026-04-03T01:16:36.291+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ingest_fundamentals.fetch_fundamentals manual__2026-04-03T01:16:35.418549+00:00 [queued]>
+[2026-04-03T01:16:36.292+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 4
+[2026-04-03T01:16:36.296+0000] {taskinstance.py:2327} INFO - Executing <Task(_PythonDecoratedOperator): fetch_fundamentals> on 2026-04-03 01:16:35.418549+00:00
+[2026-04-03T01:16:36.300+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=175) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-04-03T01:16:36.300+0000] {standard_task_runner.py:63} INFO - Started process 177 to run task
+[2026-04-03T01:16:36.301+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'ingest_fundamentals', 'fetch_fundamentals', 'manual__2026-04-03T01:16:35.418549+00:00', '--job-id', '44', '--raw', '--subdir', 'DAGS_FOLDER/ingest_fundamentals.py', '--cfg-path', '/tmp/tmp7cxz8p8e']
+[2026-04-03T01:16:36.302+0000] {standard_task_runner.py:91} INFO - Job 44: Subtask fetch_fundamentals
+[2026-04-03T01:16:36.325+0000] {task_command.py:426} INFO - Running <TaskInstance: ingest_fundamentals.fetch_fundamentals manual__2026-04-03T01:16:35.418549+00:00 [running]> on host 9151fd676358
+[2026-04-03T01:16:36.367+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ingest_fundamentals' AIRFLOW_CTX_TASK_ID='fetch_fundamentals' AIRFLOW_CTX_EXECUTION_DATE='2026-04-03T01:16:35.418549+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-03T01:16:35.418549+00:00'
+[2026-04-03T01:16:36.368+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-04-03T01:16:36.630+0000] {logging_mixin.py:188} INFO - WARNING: No data for MSFT — may have hit rate limit
+[2026-04-03T01:16:36.714+0000] {logging_mixin.py:188} INFO - WARNING: No data for GOOGL — may have hit rate limit
+[2026-04-03T01:16:36.802+0000] {logging_mixin.py:188} INFO - WARNING: No data for AMZN — may have hit rate limit
+[2026-04-03T01:16:36.953+0000] {logging_mixin.py:188} INFO - WARNING: No data for META — may have hit rate limit
+[2026-04-03T01:16:37.050+0000] {logging_mixin.py:188} INFO - WARNING: No data for NVDA — may have hit rate limit
+[2026-04-03T01:16:37.143+0000] {logging_mixin.py:188} INFO - WARNING: No data for TSLA — may have hit rate limit
+[2026-04-03T01:16:37.236+0000] {logging_mixin.py:188} INFO - WARNING: No data for JPM — may have hit rate limit
+[2026-04-03T01:16:37.328+0000] {logging_mixin.py:188} INFO - WARNING: No data for V — may have hit rate limit
+[2026-04-03T01:16:37.534+0000] {python.py:237} INFO - Done. Returned value was: [{'ticker': 'AAPL', 'sector': 'TECHNOLOGY', 'industry': 'CONSUMER ELECTRONICS', 'market_cap': '3757230785000', 'pe_ratio': '32.4', 'description': "Apple Inc. is an American multinational technology company that specializes in consumer electronics, computer software, and online services. Apple is the world's largest technology company by revenue (totalling $274.5 billion in 2020) and, since January 2021, the world's most valuable company. As of 2021, Apple is the world's fourth-largest PC vendor by unit sales, and fourth-largest smartphone manufacturer. It is one of the Big Five American information technology companies, along with Amazon, "}, {'ticker': 'UNH', 'sector': 'HEALTHCARE', 'industry': 'HEALTHCARE PLANS', 'market_cap': '248685036000', 'pe_ratio': '20.71', 'description': "UnitedHealth Group Incorporated is an American for-profit multinational managed healthcare and insurance company based in Minnetonka, Minnesota. It offers health care products and insurance services. In 2020, it was the second-largest healthcare company (behind CVS Health) by revenue with $257.1 billion, and the largest insurance company by net premiums. UnitedHealthcare revenues comprise 80% of the Group's overall revenue."}]
+[2026-04-03T01:16:37.535+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-04-03T01:16:37.557+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=ingest_fundamentals, task_id=fetch_fundamentals, execution_date=20260403T011635, start_date=20260403T011636, end_date=20260403T011637
+[2026-04-03T01:16:37.571+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-04-03T01:16:37.583+0000] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-04-03T01:16:37.583+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

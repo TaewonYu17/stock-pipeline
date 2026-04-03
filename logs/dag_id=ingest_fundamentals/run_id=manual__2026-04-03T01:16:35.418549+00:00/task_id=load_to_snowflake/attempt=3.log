@@ -1,0 +1,48 @@
+[2026-04-03T01:22:36.537+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-03T01:22:36.545+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ingest_fundamentals.load_to_snowflake manual__2026-04-03T01:16:35.418549+00:00 [queued]>
+[2026-04-03T01:22:36.548+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ingest_fundamentals.load_to_snowflake manual__2026-04-03T01:16:35.418549+00:00 [queued]>
+[2026-04-03T01:22:36.548+0000] {taskinstance.py:2303} INFO - Starting attempt 3 of 6
+[2026-04-03T01:22:36.552+0000] {taskinstance.py:2327} INFO - Executing <Task(_PythonDecoratedOperator): load_to_snowflake> on 2026-04-03 01:16:35.418549+00:00
+[2026-04-03T01:22:36.555+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=272) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-04-03T01:22:36.556+0000] {standard_task_runner.py:63} INFO - Started process 274 to run task
+[2026-04-03T01:22:36.556+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'ingest_fundamentals', 'load_to_snowflake', 'manual__2026-04-03T01:16:35.418549+00:00', '--job-id', '48', '--raw', '--subdir', 'DAGS_FOLDER/ingest_fundamentals.py', '--cfg-path', '/tmp/tmpm02fbxmx']
+[2026-04-03T01:22:36.557+0000] {standard_task_runner.py:91} INFO - Job 48: Subtask load_to_snowflake
+[2026-04-03T01:22:36.575+0000] {task_command.py:426} INFO - Running <TaskInstance: ingest_fundamentals.load_to_snowflake manual__2026-04-03T01:16:35.418549+00:00 [running]> on host 9151fd676358
+[2026-04-03T01:22:36.611+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ingest_fundamentals' AIRFLOW_CTX_TASK_ID='load_to_snowflake' AIRFLOW_CTX_EXECUTION_DATE='2026-04-03T01:16:35.418549+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-03T01:16:35.418549+00:00'
+[2026-04-03T01:22:36.612+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-04-03T01:22:36.617+0000] {base.py:84} INFO - Using connection ID 'snowflake_default' for task execution.
+[2026-04-03T01:22:36.617+0000] {connection.py:386} INFO - Snowflake Connector for Python Version: 3.7.1, Python Version: 3.12.2, Platform: Linux-6.12.68-linuxkit-aarch64-with-glibc2.36
+[2026-04-03T01:22:36.618+0000] {connection.py:1211} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2026-04-03T01:22:37.604+0000] {cursor.py:1032} INFO - query: [MERGE INTO raw.company_info AS t USING ( SELECT 'AAPL' AS ticker, 'TECHNOLOGY' A...]
+[2026-04-03T01:22:39.028+0000] {cursor.py:1045} INFO - query execution done
+[2026-04-03T01:22:39.029+0000] {cursor.py:1032} INFO - query: [MERGE INTO raw.company_info AS t USING ( SELECT 'MSFT' AS ticker, 'TECHNOLOGY' A...]
+[2026-04-03T01:22:39.911+0000] {cursor.py:1045} INFO - query execution done
+[2026-04-03T01:22:39.911+0000] {cursor.py:1032} INFO - query: [MERGE INTO raw.company_info AS t USING ( SELECT 'GOOGL' AS ticker, 'COMMUNICATIO...]
+[2026-04-03T01:22:40.847+0000] {cursor.py:1045} INFO - query execution done
+[2026-04-03T01:22:40.848+0000] {cursor.py:1032} INFO - query: [MERGE INTO raw.company_info AS t USING ( SELECT 'AMZN' AS ticker, 'CONSUMER CYCL...]
+[2026-04-03T01:22:41.580+0000] {cursor.py:1045} INFO - query execution done
+[2026-04-03T01:22:41.583+0000] {cursor.py:1032} INFO - query: [MERGE INTO raw.company_info AS t USING ( SELECT 'META' AS ticker, 'COMMUNICATION...]
+[2026-04-03T01:22:42.098+0000] {cursor.py:1045} INFO - query execution done
+[2026-04-03T01:22:42.098+0000] {cursor.py:1032} INFO - query: [MERGE INTO raw.company_info AS t USING ( SELECT 'NVDA' AS ticker, 'TECHNOLOGY' A...]
+[2026-04-03T01:22:42.712+0000] {cursor.py:1045} INFO - query execution done
+[2026-04-03T01:22:42.713+0000] {cursor.py:1032} INFO - query: [MERGE INTO raw.company_info AS t USING ( SELECT 'TSLA' AS ticker, 'CONSUMER CYCL...]
+[2026-04-03T01:22:43.224+0000] {cursor.py:1045} INFO - query execution done
+[2026-04-03T01:22:43.225+0000] {cursor.py:1032} INFO - query: [MERGE INTO raw.company_info AS t USING ( SELECT 'JPM' AS ticker, 'FINANCIAL SERV...]
+[2026-04-03T01:22:43.736+0000] {cursor.py:1045} INFO - query execution done
+[2026-04-03T01:22:43.736+0000] {cursor.py:1032} INFO - query: [MERGE INTO raw.company_info AS t USING ( SELECT 'V' AS ticker, 'FINANCIAL SERVIC...]
+[2026-04-03T01:22:44.555+0000] {cursor.py:1045} INFO - query execution done
+[2026-04-03T01:22:44.556+0000] {cursor.py:1032} INFO - query: [MERGE INTO raw.company_info AS t USING ( SELECT 'UNH' AS ticker, 'HEALTHCARE' AS...]
+[2026-04-03T01:22:45.477+0000] {cursor.py:1045} INFO - query execution done
+[2026-04-03T01:22:45.478+0000] {cursor.py:1032} INFO - query: [COMMIT]
+[2026-04-03T01:22:45.582+0000] {cursor.py:1045} INFO - query execution done
+[2026-04-03T01:22:45.582+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2026-04-03T01:22:45.583+0000] {connection.py:734} INFO - closed
+[2026-04-03T01:22:45.631+0000] {connection.py:740} INFO - No async queries seem to be running, deleting session
+[2026-04-03T01:22:45.695+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-04-03T01:22:45.695+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-04-03T01:22:45.701+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=ingest_fundamentals, task_id=load_to_snowflake, execution_date=20260403T011635, start_date=20260403T012236, end_date=20260403T012245
+[2026-04-03T01:22:45.711+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-04-03T01:22:45.718+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-04-03T01:22:45.719+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
