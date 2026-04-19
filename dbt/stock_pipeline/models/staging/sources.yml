@@ -1,0 +1,36 @@
+version: 2
+
+sources:
+  - name: raw
+    database: STOCK_DB
+    schema: RAW
+    description: "Raw data as ingested by Airflow — no transformations"
+
+    tables:
+      - name: stock_prices
+        description: "Daily OHLCV prices from yfinance"
+        columns:
+          - name: ticker
+          - name: date
+          - name: open
+          - name: high
+          - name: low
+          - name: close
+          - name: volume
+
+      - name: company_info
+        description: "Company fundamentals from Alpha Vantage"
+        columns:
+          - name: ticker
+          - name: sector
+          - name: industry
+          - name: market_cap
+          - name: pe_ratio
+
+      - name: economic_indicators
+        description: "Macro indicators from FRED"
+        columns:
+          - name: series_id
+          - name: indicator
+          - name: date
+          - name: value

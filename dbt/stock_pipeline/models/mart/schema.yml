@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: fct_daily_prices
+    description: "Daily prices joined with company sector"
+    columns:
+      - name: ticker
+        tests: [not_null]
+      - name: date
+        tests: [not_null]
+      - name: close
+        tests: [not_null]
+
+  - name: fct_returns
+    columns:
+      - name: ticker
+        tests: [not_null]
+      - name: return_1d
+        tests: [not_null]
+
+  - name: dim_companies
+    columns:
+      - name: ticker
+        tests: [not_null, unique]

@@ -36,7 +36,7 @@ def ingest_prices_dag():
             try:
                 df = yf.download(
                     ticker,
-                    period="2d",
+                    period="5y",
                     interval="1d",
                     auto_adjust=True,
                     progress=False,

@@ -1,6 +1,40 @@
+# Environment and secrets
 .env
+*.env
+
+# Python
 __pycache__/
 *.pyc
-ml/models/*.pkl
+*.pyo
 *.egg-info/
+.Python
+build/
+dist/
+venv/
+.venv/
+
+# dbt
+target/
+dbt_modules/
+dbt_packages/
 .dbt/
+
+# Airflow
+logs/
+airflow/logs/
+
+# ML artifacts
+ml/models/*.pkl
+*.h5
+*.joblib
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# Docker
+**/.docker-compose*
+**/docker-compose.override.yml
+
+# System files
+.DS_Store
+Thumbs.db

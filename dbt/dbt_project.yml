@@ -1,8 +1,0 @@
-name: stock_pipeline
-config-version: 2
-
-profile: stock_pipeline
-
-model-paths: ["models"]
-
-# You can add more configuration here as needed
