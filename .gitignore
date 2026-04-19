@@ -1,40 +1,137 @@
-# Environment and secrets
+# =============================================================================
+# SECRETS & CREDENTIALS
+# =============================================================================
 .env
-*.env
+.env.*
+!.env.example
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.egg-info/
-.Python
-build/
-dist/
+# Feast config contains Snowflake password
+feast/feature_repo/feature_store.yaml
+!feast/feature_repo/feature_store.yaml.example
+
+# dbt profiles contain Snowflake credentials (lives in ~/ but just in case)
+profiles.yml
+
+
+# =============================================================================
+# PYTHON
+# =============================================================================
 venv/
 .venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+.eggs/
 
-# dbt
-target/
-dbt_modules/
-dbt_packages/
-.dbt/
 
-# Airflow
-logs/
+# =============================================================================
+# DBT
+# =============================================================================
+# Compiled SQL and run artifacts
+dbt/stock_pipeline/target/
+
+# Installed dbt packages (like node_modules — regenerate with dbt deps)
+dbt/stock_pipeline/dbt_packages/
+
+# dbt log files
+dbt/stock_pipeline/logs/
+dbt.log
+
+
+# =============================================================================
+# FEAST
+# =============================================================================
+# Local SQLite online store and registry database
+feast/feature_repo/data/
+
+# Feast log files
+feast/feature_repo/logs/
+
+
+# =============================================================================
+# AIRFLOW
+# =============================================================================
+# Airflow generates these locally — not needed in git
 airflow/logs/
+airflow/plugins/__pycache__/
 
-# ML artifacts
+# Airflow SQLite DB (if using LocalExecutor without Docker)
+airflow/airflow.db
+airflow/webserver_config.py
+
+
+# =============================================================================
+# ML ARTIFACTS
+# =============================================================================
+# Trained model files — too large for git, regeneratable from code
 ml/models/*.pkl
-*.h5
-*.joblib
+ml/models/*.joblib
+ml/models/*.h5
 
-# Jupyter/IPython
-.ipynb_checkpoints/
+# Training data and intermediate outputs
+data/
+*.parquet
+*.csv
+!seeds/*.csv
 
-# Docker
-**/.docker-compose*
-**/docker-compose.override.yml
 
-# System files
+# =============================================================================
+# DOCKER
+# =============================================================================
+# Docker volumes if mounted locally
+postgres-db-volume/
+
+
+# =============================================================================
+# MACOS
+# =============================================================================
 .DS_Store
-Thumbs.db
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+
+# =============================================================================
+# EDITORS & IDES
+# =============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+
+
+# =============================================================================
+# JUPYTER (for any exploratory notebooks)
+# =============================================================================
+.ipynb_checkpoints/
+*.ipynb
+
+
+# =============================================================================
+# MISC
+# =============================================================================
+*.log
+*.tmp
+*.bak
+*.orig
